@@ -30,7 +30,7 @@ rectangle(xl,yl,xh,yh);
 line(x1,y1,x2,y2);
 getch();
 
-int outcode1=getcode(x1,y1), outcode2=getcode(x2,y2);                                     
+int outcode1=getcode(x1,y1), outcode2=getcode(x2,y2);                                       
 int accept = 0; //decides if line is to be drawn
 while(1){
 float m =(float)(y2-y1)/(x2-x1);
